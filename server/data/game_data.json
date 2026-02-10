@@ -1,0 +1,161 @@
+{
+  "cases": [
+    {
+      "tagline": "A little light larceny.",
+      "caseTitle": "The Commonwealth v. Flickerwing",
+      "factPattern": "The renowned gemcutter, Master Elmsworth, reported the theft of his prized Sunstone from a magically sealed display case. The stone, known for its unique internal luminescence, was found missing on the morning of the grand exhibition. The only clue was a trail of shimmering dust leading from the scene. The City Guard's Divination Scryer identified the dust as pixie-make, leading them to arrest a young pixie named Flickerwing, who was found near the gemcutter's shop, glowing unusually brightly. Flickerwing admits to taking the stone but insists it was not theft, claiming a desperate need.",
+      "judge": {
+        "name": "Judge Tiberius Blackstone",
+        "personality": "A stern, by-the-book traditionalist who views magical creatures with suspicion. Believes in the letter of the law over its spirit."
+      },
+      "prosecutor": {
+        "name": "Prosecutor Valerius Thorne",
+        "style": "Methodical and meticulous. Builds his cases brick-by-brick with physical evidence and dismisses magical justifications as fanciful nonsense."
+      },
+      "witnesses": [
+        {
+          "name": "Master Elmsworth",
+          "role": "Victim / Gemcutter",
+          "personality": "Pompous and dramatic, deeply attached to his possessions. His pride can be a weakness.",
+          "pressureTolerance": "medium",
+          "testimony": "My masterpiece, the Sunstone of Atheria, was cruelly snatched from its secure vault! That... creature... violated my sanctum. The stone is priceless, and the emotional damage is incalculable. It must be punished to the fullest extent!"
+        },
+        {
+          "name": "Sergeant Krum",
+          "role": "Arresting Officer",
+          "personality": "Gruff, no-nonsense, but fair. Just wants to do his job.",
+          "pressureTolerance": "high",
+          "testimony": "We followed the divination report. Found the suspect, Flickerwing, hiding in an alley. It was glowing like a lantern, and the Sunstone was in its possession. Open and shut case, if you ask me."
+        },
+        {
+          "name": "Lyra Meadowlight",
+          "role": "Pixie Community Elder",
+          "personality": "Frail, wise, and speaks in soft, musical tones. Unaccustomed to the harshness of a human court.",
+          "pressureTolerance": "low",
+          "testimony": "Young Flickerwing's light was fading. We call it the 'Dimming.' Without a source of potent light to rekindle one's inner flame, a pixie... fades away. It is a terrifying fate."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "sunstone_01",
+          "name": "The Sunstone of Atheria",
+          "description": "A brilliant, fist-sized gemstone that pulses with a warm, internal light. Currently held in an evidence locker.",
+          "credibility": "high",
+          "unlocks": null
+        },
+        {
+          "id": "dust_trail_02",
+          "name": "Sample of Shimmering Dust",
+          "description": "A vial containing the iridescent dust found at the crime scene. Confirmed to be pixie dust.",
+          "credibility": "high",
+          "unlocks": null
+        },
+        {
+          "id": "security_rune_log_03",
+          "name": "Gemcutter's Security Rune Log",
+          "description": "A slate tablet detailing the activation and deactivation of the magical wards on the display case. It shows no signs of being forcefully dispelled.",
+          "credibility": "medium",
+          "unlocks": "flawed_ward_04"
+        },
+        {
+          "id": "flawed_ward_04",
+          "name": "Analysis of Flawed Ward",
+          "description": "A magical analysis revealing the security rune has a loophole: it's designed to stop beings of a certain magical mass, but a tiny creature like a pixie could slip through without triggering it.",
+          "credibility": "high",
+          "unlocks": null
+        },
+        {
+          "id": "medical_scroll_05",
+          "name": "Healer's Scroll on 'The Dimming'",
+          "description": "An arcane medical text describing a rare pixie ailment where their internal light fades, which can be fatal if not treated with a potent source of magical light.",
+          "credibility": "medium",
+          "unlocks": null
+        }
+      ],
+      "legalTheories": [
+        "Doctrine of Necessity: Argue Flickerwing's actions were necessary to prevent its own death, and thus not criminally liable.",
+        "Lack of Mens Rea: Argue Flickerwing had no intent to permanently deprive the owner, only to 'borrow' the light, meaning the element of theft is missing."
+      ],
+      "moralDilemma": "The prosecutor offers a plea deal: Flickerwing pleads guilty to a lesser charge and serves one year of indentured servitude to Master Elmsworth. This avoids a harsh sentence, but a creature of freedom would be caged. Do you accept the safe but soul-crushing deal, or risk it all for acquittal?",
+      "id": "1770689487073",
+      "timestamp": 1770689487073,
+      "status": "active"
+    },
+    {
+      "tagline": "An ancient promise versus modern progress.",
+      "caseTitle": "The City of Silverstream v. Unit 734 (The Stone Sentinel)",
+      "factPattern": "The newly constructed Silverstream Aqueduct, a marvel of modern engineering, was found shattered just before its grand opening. Towering over the rubble was Unit 734, a clay golem that has stood dormant in the nearby woods for centuries. The golem is inscribed with ancient runes and shows signs of recent, forceful activity. The city's Guild of Artificers, who funded the project, claims the golem went rogue and is demanding its immediate decommissioning. The defendant, Unit 734, remains silent, its motives a mystery locked within its earthen form.",
+      "judge": {
+        "name": "Judge Tiberius Axleworth",
+        "personality": "A former engineer, obsessed with logic, order, and tangible proof. Skeptical of ancient magic and tradition, preferring modern regulations and schematics."
+      },
+      "prosecutor": {
+        "name": "Kaelen Varrus",
+        "style": "A populist who frames the case as 'Progress vs. Primitivism.' He uses grand, emotional rhetoric to sway public opinion and paint the golem as a mindless, dangerous relic."
+      },
+      "witnesses": [
+        {
+          "name": "Elara Vance",
+          "role": "Lead Aqueduct Engineer",
+          "personality": "Arrogant, proud of her work, dismissive of anything she can't quantify. Believes magic is an inefficient, obsolete system.",
+          "pressureTolerance": "high",
+          "testimony": "My calculations were flawless. The aqueduct was structurally perfect. The only way it could have been destroyed is through immense, directed force. That golem is the only thing in the region capable of such destruction. It's an obsolete menace."
+        },
+        {
+          "name": "Old Man Hemlock",
+          "role": "Local Hermit / Keeper of Lore",
+          "personality": "Cryptic, speaks in riddles, distrustful of city folk and their 'progress'.",
+          "pressureTolerance": "low",
+          "testimony": "The stones remember the old ways. The Sentinel was built to protect the Heartspring, not to guard a patch of dirt. The city's metal snake was drinking the spring dry... the Sentinel did what it was made to do."
+        },
+        {
+          "name": "Master Gideon",
+          "role": "Guild Artificer (Expert Witness)",
+          "personality": "Clinical, detached, sees magical constructs as mere tools to be controlled or dismantled.",
+          "pressureTolerance": "medium",
+          "testimony": "Golems of that vintage are notoriously unstable. Their programming degrades over centuries. Without a direct master, its core directives could have easily corrupted into simple, destructive commands. It is a faulty machine, nothing more."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "AQ_SHARD_01",
+          "name": "Enchanted Aqueduct Shard",
+          "description": "A piece of the aqueduct's foundation stone, covered in golem clay fingerprints. It hums with residual anti-magic wards.",
+          "credibility": "high",
+          "unlocks": null
+        },
+        {
+          "id": "RUNE_TRACING_01",
+          "name": "Tracing of Golem's Command Rune",
+          "description": "A charcoal rubbing of the primary rune on the golem's forehead. It's partially worn and difficult to decipher.",
+          "credibility": "low",
+          "unlocks": "RUNE_DECODED_01"
+        },
+        {
+          "id": "HYD_REPORT_01",
+          "name": "Guild Hydrology Report",
+          "description": "The official survey showing the aqueduct's water source. A footnote mentions a minor, unnamed spring being diverted, but dismisses its significance.",
+          "credibility": "medium",
+          "unlocks": null
+        },
+        {
+          "id": "RUNE_DECODED_01",
+          "name": "Deciphered Command Rune",
+          "description": "A scholar's translation of the golem's primary rune: 'Guard the Heartspring. Let none diminish its flow.'",
+          "credibility": "high",
+          "unlocks": null
+        }
+      ],
+      "legalTheories": [
+        "Automatons and Intent: Argue that a golem, as a magical construct, cannot form criminal intent (mens rea) and is merely executing its programming.",
+        "Doctrine of Ancient Covenants: Posit that the golem's mandate is a legally binding magical contract that predates the city's own charter, giving it a superior right to protect the spring.",
+        "Necessity Defense: Claim the destruction of the aqueduct was necessary to prevent the greater harm of the sacred spring being destroyed, which has unknown ecological and magical consequences."
+      ],
+      "moralDilemma": "The city offers a plea deal: They will spare the golem from decommissioning if it is magically reprogrammed to serve as a city guard, its ancient mandate wiped clean. Do you sacrifice its original purpose to save its 'life', or risk its destruction to defend its ancient identity?",
+      "id": "1770690050476",
+      "timestamp": 1770690050476,
+      "status": "active"
+    }
+  ],
+  "settings": {}
+}

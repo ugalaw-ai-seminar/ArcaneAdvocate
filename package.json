@@ -1,0 +1,14 @@
+{
+  "name": "arcane-advocate-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for Arcane Advocate Game",
+  "scripts": {
+    "dev": "npx kill-port 3000 && concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
